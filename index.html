@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>  
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body> 
+    <!-- Essa div guarda o botão de trocar tema -->
+    <div class="theme">
+        <label class="switch">
+            <input type="checkbox" onclick="switchTheme()"> <!-- Quando o usuário clicar nesse checkbox, execute a função switchTheme() do JavaScript.-->
+            <span class="slider"></span>
+        </label>
+    </div>
+    <div class="login-box">
+        <h1>Entrar</h1>
+        <form>
+            <input type="text" placeholder="E-mail" id="email-input">
+            <input type="password" placeholder="Senha" id="password-input">
+            <button type="submit" id="login-button">Entrar</button>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
